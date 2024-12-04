@@ -1,0 +1,16 @@
+{
+  "name": "mvcube",
+  "version": "1.0.1",
+  "description": "Descrição do seu CLI",
+  "main": "dist/cli.js",
+  "bin": {
+    "mvcube": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}

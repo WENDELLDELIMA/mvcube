@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",                // Transpila para ES6
+      "module": "commonjs",           // Usa módulos CommonJS para suporte a `require`
+      "outDir": "./dist",             // Diretório de saída
+      "rootDir": "./src",             // Diretório raiz
+      "strict": true,                 // Ativa verificações estritas
+      "esModuleInterop": true,        // Permite importar módulos CommonJS
+      "resolveJsonModule": true,      // Permite importar JSON
+      "types": ["node"]               // Inclui definições de tipos do Node.js
+    },
+    "include": ["src/**/*.ts"],        // Inclui arquivos TypeScript
+    "exclude": ["node_modules"]        // Exclui a pasta `node_modules`
+  }
+  
