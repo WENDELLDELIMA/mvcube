@@ -1,14 +1,36 @@
 {
   "name": "mvcube",
-  "version": "1.0.1",
-  "description": "Descrição do seu CLI",
+  "version": "1.0.2",
+  "description": "A CLI for quickly creating MVC structures in Next.js projects, including Models, Controllers, and Views.",
   "main": "dist/cli.js",
   "bin": {
     "mvcube": "./dist/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "CLI",
+    "MVC",
+    "Next.js",
+    "Node.js",
+    "Automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WENDELLDELIMA/mvcube.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WENDELLDELIMA/mvcube/issues"
+  },
+  "homepage": "https://github.com/WENDELLDELIMA/mvcube",
+  "author": {
+    "name": "Wendell De Lima",
+    "email": "wendell.lima22@hotmail.com",
+    "url": "https://github.com/WENDELLDELIMA"
+  },
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "typescript": "^4.0.0"
