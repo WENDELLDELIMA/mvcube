@@ -1,6 +1,6 @@
 {
   "name": "mvcube",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module", 
 "description": "MVCube is a powerful CLI tool designed to streamline the development process in Next.js projects. It allows developers to quickly generate MVC (Model-View-Controller) structures, including Models, Controllers, Views, and reusable UI Components. MVCube simplifies the creation of standardized application structures and components, enabling developers to focus more on business logic and UI design. It also supports the creation of both global and local components, providing flexibility in managing your project’s architecture.",
 
