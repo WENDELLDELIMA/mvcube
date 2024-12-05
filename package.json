@@ -1,7 +1,9 @@
 {
   "name": "mvcube",
-  "version": "1.0.2",
-  "description": "A CLI for quickly creating MVC structures in Next.js projects, including Models, Controllers, and Views.",
+  "version": "1.0.4",
+  "type": "module", 
+"description": "MVCube is a powerful CLI tool designed to streamline the development process in Next.js projects. It allows developers to quickly generate MVC (Model-View-Controller) structures, including Models, Controllers, Views, and reusable UI Components. MVCube simplifies the creation of standardized application structures and components, enabling developers to focus more on business logic and UI design. It also supports the creation of both global and local components, providing flexibility in managing your project’s architecture.",
+
   "main": "dist/cli.js",
   "bin": {
     "mvcube": "./dist/cli.js"
@@ -15,7 +17,8 @@
     "MVC",
     "Next.js",
     "Node.js",
-    "Automation"
+    "Automation",
+    "Components"
   ],
   "repository": {
     "type": "git",
@@ -31,7 +34,9 @@
     "url": "https://github.com/WENDELLDELIMA"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "inquirer": "^9.2.5"
+  },
   "devDependencies": {
     "typescript": "^4.0.0"
   }
